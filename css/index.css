@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap');
+
+main {
+    background-color: rgba(238, 238, 238, 0.849);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+#title h1 {
+    padding-top: 35px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: auto;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#image {
+    max-width: 90%;
+    height: auto;
+}
+
+#img-div figcaption {
+    margin-top: 10px;
+}
+
+#tribute-info {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#tribute-info h2 {
+    margin: 45px 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tribute-info #accomplishments li {
+    margin: 20px 0;
+}
+
+#tribute-info #accomplishments li span {
+    font-weight: 700;
+}
+
+#quote {
+    font-size: 16px;
+    margin: 70px 0;
+    text-align: center;
+}
+
+#info {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
